@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wayne's Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Wayne's Portfolio</h1>
+      <p>Front-End Web Developer</p>
+      <button id="themeToggle">🌙 Toggle Dark Mode</button>
+    </header>
+
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        Hello! I'm <strong>Wayne Karonji</strong>, a passionate Front-End Web
+        Developer dedicated to creating modern, responsive, and user-friendly
+        web experiences. I enjoy transforming ideas into functional and visually
+        appealing websites while focusing on performance, accessibility, and
+        clean code. My expertise includes building interactive interfaces using
+        <strong>HTML</strong>, <strong>CSS</strong>, and
+        <strong>JavaScript</strong>. I am constantly learning new technologies
+        and improving my skills to deliver high-quality digital solutions that
+        make a meaningful impact.
+      </p>
+
+      <div class="skills">
+        <h3>Technical Skills</h3>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="projects">
+        <div class="project-card">
+          <h3>E-commerce Form</h3>
+          <p>
+            Designed a dynamic registration form with country selection and
+            validation features.
+          </p>
+        </div>
+        <div class="project-card">
+          <h3>Solar System</h3>
+          <p>
+            Developed a demonstration of the solar system's planets and their
+            orbits. And how the earth revolves around the sun .
+          </p>
+          <p>
+            <a
+              href="https://mysteriouswick07.github.io/Solar-System/"
+              target="_blank"
+              class="project-link"
+              >View Project</a
+            >
+          </p>
+        </div>
+        <div class="project-card">
+          <h3>Clothing Store</h3>
+          <p>
+            Designed and developed a responsive e-commerce website for a
+            clothing store.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <form id="contactForm">
+        <input type="text" id="name" placeholder="Your Name" required />
+        <input type="email" id="email" placeholder="Your Email" required />
+        <textarea id="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+      <p>
+        <i class="fas fa-envelope"></i>
+        Email:
+        <a href="mailto:karonjiwayne@gmail.com" target="_blank"
+          >karonjiwayne@gmail.com</a
+        >
+      </p>
+      <p>
+        <i class="fas fa-phone"></i>
+        Phone:
+        <a href="tel:+254793674511" target="_blank">+254 793 674 511</a>
+      </p>
+      <p>
+        <i class="fab fa-linkedin"></i>
+        LinkedIn:
+        <a href="https://linkedin.com/in/wayne-karonji" target="_blank"
+          >linkedin.com/in/wayne-karonji</a
+        >
+      </p>
+      <p>
+        <i class="fab fa-github"></i>
+        GitHub:
+        <a href="https://github.com/MysteriousWick07" target="_blank"
+          >github.com/MysteriousWick07</a
+        >
+      </p>
+      <p>
+        <i class="fab fa-instagram"></i>
+        Instagram:
+        <a
+          href="https://www.instagram.com/i.t.s_wayne_/?__pwa=1"
+          target="_blank"
+          >instagram.com/i.t.s_wayne_</a
+        >
+      </p>
+    </section>
+
+    <footer>
+      <p>&copy; 2026 Wayne. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
